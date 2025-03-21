@@ -3174,7 +3174,7 @@ PoliwhirlAmnesia_CheckAttacks:
 	jr nz, .has_attack
 ; has no attack
 	call SwapTurn
-	ldtx hl, NoAttackMayBeChoosenText
+	ldtx hl, NoAttackMayBeChosenText
 	scf
 	ret
 .has_attack
@@ -5701,7 +5701,7 @@ Scavenge_AddToHandEffect:
 ; returns carry if Defending Pokemon has no attacks
 SlowpokeAmnesia_CheckAttacks:
 	call CheckIfDefendingPokemonHasAnyAttack
-	ldtx hl, NoAttackMayBeChoosenText
+	ldtx hl, NoAttackMayBeChosenText
 	ret
 
 SlowpokeAmnesia_PlayerSelectEffect:
@@ -7928,7 +7928,7 @@ HandleEnergyDiscardEffectSelection:
 ; return carry if Defending Pokemon has no attacks
 ClefableMetronome_CheckAttacks:
 	call CheckIfDefendingPokemonHasAnyAttack
-	ldtx hl, NoAttackMayBeChoosenText
+	ldtx hl, NoAttackMayBeChosenText
 	ret
 
 ClefableMetronome_AISelectEffect:
@@ -8040,7 +8040,7 @@ SingEffect:
 ; return carry if Defending Pokemon has no attacks
 ClefairyMetronome_CheckAttacks:
 	call CheckIfDefendingPokemonHasAnyAttack
-	ldtx hl, NoAttackMayBeChoosenText
+	ldtx hl, NoAttackMayBeChosenText
 	ret
 
 ClefairyMetronome_AISelectEffect:

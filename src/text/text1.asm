@@ -670,7 +670,7 @@ Text0096:
 	text "Other"
 	line "Poison"
 	line "Sleep"
-	line "Payalysis"
+	line "Paralysis"
 	line "Confusion"
 	line "Double Poison"
 	line "Clear"
@@ -923,8 +923,8 @@ ThereAreNoTrainerCardsInDiscardPileText:
 	line "in the Discard Pile."
 	done
 
-NoAttackMayBeChoosenText:
-	text "No Attacks may be choosen."
+NoAttackMayBeChosenText:
+	text "No Attacks may be chosen."
 	done
 
 YouDidNotReceiveAnAttackToMirrorMoveText:
@@ -995,7 +995,7 @@ UnableDueToToxicGasText:
 	done
 
 Text00d5:
-	text "A Transmission Error occured."
+	text "A Transmission Error occurred."
 	done
 
 BackUpIsBrokenText:
