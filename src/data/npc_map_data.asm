@@ -15,7 +15,7 @@ MasonLabNPCS:
 	dw NULL
 	db NPC_TECH4, $0a, $16, EAST
 	dw NULL
-	db NPC_MERT, $0a, $08, EAST
+	db NPC_TEST, $0a, $08, EAST
 	dw NULL
 	db NPC_TECH5, $06, $04, SOUTH
 	dw Preload_Tech5

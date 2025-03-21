@@ -184,12 +184,12 @@ RecycleDescription:
 	line "deck."
 	done
 
-NPC_05MertExplanationText:
-	text "Yesterday Conqueror Mert"
+NPC_05TestExplanationText:
+	text "Yesterday Conqueror Mo"
 	line "threw up all over my peonies."
 	line "That cat eats everything."
 	done
 
 NPC_05NPCName:
-	text "Mert"
+	text "Mo"
 	done

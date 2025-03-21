@@ -129,7 +129,7 @@ Script_Tech4:
 Script_NPC_05:
 	start_script
 	test_if_event_false EVENT_RECEIVED_LEGENDARY_CARDS
-	print_variable_npc_text NPC_05MertExplanationText, Tech5ChallengeMachineExplanationText
+	print_variable_npc_text NPC_05TestExplanationText, Tech5ChallengeMachineExplanationText
 	quit_script_fully
 
 Preload_Tech5:

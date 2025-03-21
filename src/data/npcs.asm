@@ -119,7 +119,7 @@ NPCHeaderPointers:
 	dw Ronald2NPCHeader
 	dw Ronald3NPCHeader
 	dw NPC05NPCHeader
-	dw MertHeader
+	dw TestNPCHeader
 	assert_table_length NUM_NPCS
 
 DrMasonNPCHeader:
@@ -304,8 +304,8 @@ NPC05NPCHeader:
 	db $00
 	db $00
 
-MertHeader:
-	db NPC_MERT
+TestNPCHeader:
+	db NPC_TEST
 	db SPRITE_OW_CLERK
 	db SPRITE_ANIM_SGB_CLERK_NPC_UP
 	db SPRITE_ANIM_CGB_CLERK_NPC_UP
